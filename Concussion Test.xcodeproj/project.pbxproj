@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273A12D91D0CAC2500AC7F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273A12D81D0CAC2500AC7F4B /* LaunchScreen.storyboard */; };
+		2769E1621CD956CA00A4456D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769E1611CD956CA00A4456D /* AppDelegate.swift */; };
+		2769E1641CD956CA00A4456D /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769E1631CD956CA00A4456D /* PatientViewController.swift */; };
+		2769E1671CD956CA00A4456D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2769E1651CD956CA00A4456D /* Main.storyboard */; };
+		2769E1691CD956CA00A4456D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2769E1681CD956CA00A4456D /* Images.xcassets */; };
+		2769E1781CD956CA00A4456D /* Concussion_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769E1771CD956CA00A4456D /* Concussion_TestTests.swift */; };
+		27E299411CDA9E58006904D5 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E299401CDA9E58006904D5 /* RatingControl.swift */; };
+		27E299461CDBE747006904D5 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E299451CDBE747006904D5 /* Patient.swift */; };
+		27E299471CDBE747006904D5 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E299451CDBE747006904D5 /* Patient.swift */; };
+		27E2994C1CDBEE96006904D5 /* PatientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2994B1CDBEE96006904D5 /* PatientTableViewController.swift */; };
+		27E2994E1CDBF05A006904D5 /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2994D1CDBF05A006904D5 /* PatientTableViewCell.swift */; };
+		27E299531CE0CE01006904D5 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E299521CE0CE01006904D5 /* AppManager.swift */; };
+		27F876F11DFDF77500DBA92A /* GlasgowComaScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F876F01DFDF77500DBA92A /* GlasgowComaScale.swift */; };
+		27F876F31DFDF83F00DBA92A /* MaddocksScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F876F21DFDF83F00DBA92A /* MaddocksScore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2769E1721CD956CA00A4456D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2769E1541CD956CA00A4456D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2769E15B1CD956CA00A4456D;
+			remoteInfo = "Concussion Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		273A12D81D0CAC2500AC7F4B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2769E15C1CD956CA00A4456D /* Concussion Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concussion Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2769E1601CD956CA00A4456D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2769E1611CD956CA00A4456D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2769E1631CD956CA00A4456D /* PatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		2769E1661CD956CA00A4456D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2769E1681CD956CA00A4456D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2769E1711CD956CA00A4456D /* Concussion TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concussion TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2769E1761CD956CA00A4456D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2769E1771CD956CA00A4456D /* Concussion_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concussion_TestTests.swift; sourceTree = "<group>"; };
+		27E299401CDA9E58006904D5 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		27E299451CDBE747006904D5 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		27E2994B1CDBEE96006904D5 /* PatientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTableViewController.swift; sourceTree = "<group>"; };
+		27E2994D1CDBF05A006904D5 /* PatientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientTableViewCell.swift; path = ../PatientTableViewCell.swift; sourceTree = "<group>"; };
+		27E299521CE0CE01006904D5 /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		27F876F01DFDF77500DBA92A /* GlasgowComaScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlasgowComaScale.swift; sourceTree = "<group>"; };
+		27F876F21DFDF83F00DBA92A /* MaddocksScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaddocksScore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2769E1591CD956CA00A4456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2769E16E1CD956CA00A4456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2769E1531CD956CA00A4456D = {
+			isa = PBXGroup;
+			children = (
+				2769E15E1CD956CA00A4456D /* Concussion Test */,
+				2769E1741CD956CA00A4456D /* Concussion TestTests */,
+				2769E15D1CD956CA00A4456D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2769E15D1CD956CA00A4456D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2769E15C1CD956CA00A4456D /* Concussion Test.app */,
+				2769E1711CD956CA00A4456D /* Concussion TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2769E15E1CD956CA00A4456D /* Concussion Test */ = {
+			isa = PBXGroup;
+			children = (
+				27F876ED1DFDEF4700DBA92A /* Athlete Page */,
+				27F876EC1DFDEF3B00DBA92A /* Assessment Page */,
+				27E299541CE0CE1F006904D5 /* Helpers */,
+				2769E1611CD956CA00A4456D /* AppDelegate.swift */,
+				2769E1651CD956CA00A4456D /* Main.storyboard */,
+				2769E1681CD956CA00A4456D /* Images.xcassets */,
+				273A12D81D0CAC2500AC7F4B /* LaunchScreen.storyboard */,
+				2769E15F1CD956CA00A4456D /* Supporting Files */,
+			);
+			path = "Concussion Test";
+			sourceTree = "<group>";
+		};
+		2769E15F1CD956CA00A4456D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2769E1601CD956CA00A4456D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2769E1741CD956CA00A4456D /* Concussion TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2769E1771CD956CA00A4456D /* Concussion_TestTests.swift */,
+				2769E1761CD956CA00A4456D /* Info.plist */,
+			);
+			path = "Concussion TestTests";
+			sourceTree = "<group>";
+		};
+		27E299441CDBE433006904D5 /* PatientTracker */ = {
+			isa = PBXGroup;
+			children = (
+				2769E1631CD956CA00A4456D /* PatientViewController.swift */,
+				27E299401CDA9E58006904D5 /* RatingControl.swift */,
+				27E299451CDBE747006904D5 /* Patient.swift */,
+			);
+			name = PatientTracker;
+			sourceTree = "<group>";
+		};
+		27E2994F1CDBF41B006904D5 /* Patient Table */ = {
+			isa = PBXGroup;
+			children = (
+				27E2994D1CDBF05A006904D5 /* PatientTableViewCell.swift */,
+				27E2994B1CDBEE96006904D5 /* PatientTableViewController.swift */,
+			);
+			name = "Patient Table";
+			sourceTree = "<group>";
+		};
+		27E299541CE0CE1F006904D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				27E299521CE0CE01006904D5 /* AppManager.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		27F876EC1DFDEF3B00DBA92A /* Assessment Page */ = {
+			isa = PBXGroup;
+			children = (
+				27F876F01DFDF77500DBA92A /* GlasgowComaScale.swift */,
+				27F876F21DFDF83F00DBA92A /* MaddocksScore.swift */,
+			);
+			name = "Assessment Page";
+			sourceTree = "<group>";
+		};
+		27F876ED1DFDEF4700DBA92A /* Athlete Page */ = {
+			isa = PBXGroup;
+			children = (
+				27E299441CDBE433006904D5 /* PatientTracker */,
+				27E2994F1CDBF41B006904D5 /* Patient Table */,
+			);
+			name = "Athlete Page";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2769E15B1CD956CA00A4456D /* Concussion Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2769E17B1CD956CA00A4456D /* Build configuration list for PBXNativeTarget "Concussion Test" */;
+			buildPhases = (
+				2769E1581CD956CA00A4456D /* Sources */,
+				2769E1591CD956CA00A4456D /* Frameworks */,
+				2769E15A1CD956CA00A4456D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Concussion Test";
+			productName = "Concussion Test";
+			productReference = 2769E15C1CD956CA00A4456D /* Concussion Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2769E1701CD956CA00A4456D /* Concussion TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2769E17E1CD956CA00A4456D /* Build configuration list for PBXNativeTarget "Concussion TestTests" */;
+			buildPhases = (
+				2769E16D1CD956CA00A4456D /* Sources */,
+				2769E16E1CD956CA00A4456D /* Frameworks */,
+				2769E16F1CD956CA00A4456D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2769E1731CD956CA00A4456D /* PBXTargetDependency */,
+			);
+			name = "Concussion TestTests";
+			productName = "Concussion TestTests";
+			productReference = 2769E1711CD956CA00A4456D /* Concussion TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2769E1541CD956CA00A4456D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Slouch Design";
+				TargetAttributes = {
+					2769E15B1CD956CA00A4456D = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0810;
+					};
+					2769E1701CD956CA00A4456D = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0810;
+						TestTargetID = 2769E15B1CD956CA00A4456D;
+					};
+				};
+			};
+			buildConfigurationList = 2769E1571CD956CA00A4456D /* Build configuration list for PBXProject "Concussion Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2769E1531CD956CA00A4456D;
+			productRefGroup = 2769E15D1CD956CA00A4456D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2769E15B1CD956CA00A4456D /* Concussion Test */,
+				2769E1701CD956CA00A4456D /* Concussion TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2769E15A1CD956CA00A4456D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2769E1671CD956CA00A4456D /* Main.storyboard in Resources */,
+				273A12D91D0CAC2500AC7F4B /* LaunchScreen.storyboard in Resources */,
+				2769E1691CD956CA00A4456D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2769E16F1CD956CA00A4456D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2769E1581CD956CA00A4456D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E299531CE0CE01006904D5 /* AppManager.swift in Sources */,
+				27E299461CDBE747006904D5 /* Patient.swift in Sources */,
+				2769E1641CD956CA00A4456D /* PatientViewController.swift in Sources */,
+				27F876F31DFDF83F00DBA92A /* MaddocksScore.swift in Sources */,
+				27E299411CDA9E58006904D5 /* RatingControl.swift in Sources */,
+				27E2994E1CDBF05A006904D5 /* PatientTableViewCell.swift in Sources */,
+				27F876F11DFDF77500DBA92A /* GlasgowComaScale.swift in Sources */,
+				27E2994C1CDBEE96006904D5 /* PatientTableViewController.swift in Sources */,
+				2769E1621CD956CA00A4456D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2769E16D1CD956CA00A4456D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E299471CDBE747006904D5 /* Patient.swift in Sources */,
+				2769E1781CD956CA00A4456D /* Concussion_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2769E1731CD956CA00A4456D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2769E15B1CD956CA00A4456D /* Concussion Test */;
+			targetProxy = 2769E1721CD956CA00A4456D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2769E1651CD956CA00A4456D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2769E1661CD956CA00A4456D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2769E1791CD956CA00A4456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2769E17A1CD956CA00A4456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2769E17C1CD956CA00A4456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Concussion Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slouchdesign.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2769E17D1CD956CA00A4456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Concussion Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slouchdesign.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2769E17F1CD956CA00A4456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Concussion TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slouchdesign.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concussion Test.app/Concussion Test";
+			};
+			name = Debug;
+		};
+		2769E1801CD956CA00A4456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Concussion TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slouchdesign.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concussion Test.app/Concussion Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2769E1571CD956CA00A4456D /* Build configuration list for PBXProject "Concussion Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2769E1791CD956CA00A4456D /* Debug */,
+				2769E17A1CD956CA00A4456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2769E17B1CD956CA00A4456D /* Build configuration list for PBXNativeTarget "Concussion Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2769E17C1CD956CA00A4456D /* Debug */,
+				2769E17D1CD956CA00A4456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2769E17E1CD956CA00A4456D /* Build configuration list for PBXNativeTarget "Concussion TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2769E17F1CD956CA00A4456D /* Debug */,
+				2769E1801CD956CA00A4456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2769E1541CD956CA00A4456D /* Project object */;
+}

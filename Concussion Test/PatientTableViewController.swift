@@ -32,7 +32,6 @@ class PatientTableViewController: UITableViewController {
         // Use the edit button item provided by the table view controller
         navigationItem.leftBarButtonItem = editButtonItem
         
-        // Test
         //loadSamplePatients()
         
         // [Load any saved data]
